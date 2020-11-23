@@ -84,15 +84,6 @@ class App extends Component {
       this.setState({pizzas: copiedArray})
     })
     console.log(this.state.pizzas)
-
-    this.setState({
-      pizzaObj: {
-        id: '',
-        topping: '',
-        size: 'Small',
-        vegetarian: ''
-      }
-    })
   }
 
 
